@@ -1,0 +1,6 @@
+{
+  "name": "Shiza Online — Digital Service & Billing Manager",
+  "description": "Bengali-first digital service centre billing, customer ledger, UPI QR generation, offline Room/local database, and financial management for Shiza Online, West Bengal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

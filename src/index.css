@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --navy-primary: #0f172a;
+    --navy-secondary: #1e3a8a;
+    --navy-dark: #0b1120;
+    --yellow-accent: #eab308;
+    --yellow-hover: #ca8a04;
+    --yellow-light: #fef08a;
+    --green-success: #16a34a;
+    --amber-pending: #d97706;
+    --red-error: #dc2626;
+  }
+
+  body {
+    font-family: 'Hind Siliguri', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@media print {
+  /* Hide non-printable UI elements */
+  .no-print, nav, header, aside, .bottom-nav, button:not(.print-allow), .action-bar {
+    display: none !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .print-only-container {
+    display: block !important;
+    position: static !important;
+    width: 100% !important;
+    max-width: 80mm !important; /* POS / Thermal standard or A4 standard */
+    margin: 0 auto !important;
+    padding: 8px !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  .print-page-break {
+    page-break-after: always;
+  }
+}

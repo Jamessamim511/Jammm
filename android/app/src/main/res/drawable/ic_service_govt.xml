@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Rounded Background Plate -->
+    <path
+        android:fillColor="#E0E7FF"
+        android:pathData="M12,4h24c4.42,0 8,3.58 8,8v24c0,4.42 -3.58,8 -8,8H12c-4.42,0 -8,-3.58 -8,-8V12c0,-4.42 3.58,-8 8,-8z"/>
+    <!-- Pediment Roof (Triangle) -->
+    <path
+        android:fillColor="#3730A3"
+        android:pathData="M24,10L10,18h28L24,10z"/>
+    <!-- Gold Ashok Emblem Seal -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M24,14m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <!-- Entablature Beam -->
+    <path
+        android:fillColor="#4338CA"
+        android:pathData="M11,18h26v2H11z"/>
+    <!-- 4 Stately Pillars -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M13,21h3v13h-3zM19,21h3v13h-3zM26,21h3v13h-3zM32,21h3v13h-3z"/>
+    <path
+        android:fillColor="#4F46E5"
+        android:pathData="M13,21h3v2h-3zM19,21h3v2h-3zM26,21h3v2h-3zM32,21h3v2h-3zM13,32h3v2h-3zM19,32h3v2h-3zM26,32h3v2h-3zM32,32h3v2h-3z"/>
+    <!-- Foundation Steps Base -->
+    <path
+        android:fillColor="#4338CA"
+        android:pathData="M11,35h26v2H11z"/>
+    <path
+        android:fillColor="#312E81"
+        android:pathData="M9,37h30v3H9z"/>
+</vector>

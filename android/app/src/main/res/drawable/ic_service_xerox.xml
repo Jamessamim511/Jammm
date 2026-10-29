@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Rounded Background Plate -->
+    <path
+        android:fillColor="#FEF3C7"
+        android:pathData="M12,4h24c4.42,0 8,3.58 8,8v24c0,4.42 -3.58,8 -8,8H12c-4.42,0 -8,-3.58 -8,-8V12c0,-4.42 3.58,-8 8,-8z"/>
+    <!-- Original Document -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M11,11h18c1.1,0 2,0.9 2,2v22c0,1.1 -0.9,2 -2,2H11c-1.1,0 -2,-0.9 -2,-2V13c0,-1.1 0.9,-2 2,-2z"/>
+    <!-- Duplicate Copy -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M19,15h18c1.1,0 2,0.9 2,2v22c0,1.1 -0.9,2 -2,2H19c-1.1,0 -2,-0.9 -2,-2V17c0,-1.1 0.9,-2 2,-2z"/>
+    <!-- Copy Text Lines -->
+    <path
+        android:fillColor="#B45309"
+        android:pathData="M23,20h10v1.5H23zM23,24h8v1.5H23zM23,28h9v1.5H23z"/>
+    <!-- Scanner Light Bar -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M8,26h32v2.5H8z"/>
+</vector>

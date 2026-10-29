@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Rounded Background Plate -->
+    <path
+        android:fillColor="#EDE9FE"
+        android:pathData="M12,4h24c4.42,0 8,3.58 8,8v24c0,4.42 -3.58,8 -8,8H12c-4.42,0 -8,-3.58 -8,-8V12c0,-4.42 3.58,-8 8,-8z"/>
+    <!-- PVC Card Body -->
+    <path
+        android:fillColor="#4C1D95"
+        android:pathData="M7,13h34c2.21,0 4,1.79 4,4v20c0,2.21 -1.79,4 -4,4H7c-2.21,0 -4,-1.79 -4,-4V17c0,-2.21 1.79,-4 4,-4z"/>
+    <!-- Gold EMV Chip -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M11,21h7c0.55,0 1,0.45 1,1v5c0,0.55 -0.45,1 -1,1h-7c-0.55,0 -1,-0.45 -1,-1v-5c0,-0.55 0.45,-1 1,-1z"/>
+    <!-- Cardholder Avatar Frame -->
+    <path
+        android:fillColor="#DDD6FE"
+        android:pathData="M31,20h8v10h-8z"/>
+    <!-- Card Number Strips -->
+    <path
+        android:fillColor="#C4B5FD"
+        android:pathData="M11,31h14v1.5H11zM11,34h10v1.5H11z"/>
+</vector>
